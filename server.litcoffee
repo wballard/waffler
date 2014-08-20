@@ -16,7 +16,7 @@ echo and disconnect.
 Sockety goodness. Or badness, as the case may be.
 
     wss.on 'connection', (socket) ->
-      console.log 'hi'.blue
+      console.log 'client connected'.blue
 
 Translate messages into events allowing declarative event handling.
 
